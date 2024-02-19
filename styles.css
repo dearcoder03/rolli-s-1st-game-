@@ -1,0 +1,54 @@
+body {
+    margin: 100;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+#game-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('https://img.freepik.com/free-vector/road-mountain-cartoon-night-landscape-dark-blue-sky-full-moon-straight-way-horizon-empty-summer-journey-path-scene-with-alps-glowworms-asphalt-freeway-mountains-panoramic-view_107791-21531.jpg') repeat-y;
+    background-size: cover;
+}
+
+#car {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 190px; /* Adjust the width as needed */
+    height: 190px; /* Adjust the height as needed */
+    background: url('./Satoru_Gojo_29.webp') no-repeat center center;
+    background-size: contain;
+    z-index: 2;
+}
+
+.obstacle {
+    position: absolute;
+    width: 90px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    background: url('./61bZTqKHreL.png') no-repeat center center;
+    background-size: contain;
+    z-index: 1;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 50px;
+    z-index: 2;
+}
+
+#game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+    display: none;
+    z-index: 4;
+}
