@@ -17,7 +17,6 @@ body {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    width: 50px; /* Adjust the width as needed */
     height: 100px; /* Adjust the height as needed */
     background: url('./Satoru_Gojo_29.jpg') no-repeat center center;
     background-size: contain;
